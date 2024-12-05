@@ -34,14 +34,21 @@ OR
 go run .
 ```
 
-### Getting Started
+### Instructions
 
-1. Once localhost:8080 loads, you can only use 4 names:
-   Anna, Bob, Charlie, David 
+Once localhost:8080 loads, you can only use 4 names:
 
+```bash
+Anna, Bob, Charlie, David 
+```
+I know it's not a lot of options but... actually there is no but it sucks.
+   
+## ⚠️ Disclaimer
+Please don't look at my commit history and .github folder. This project was pushed on a laptop so ancient that it might qualify for a museum display. I’m genuinely afraid to push its limits, just let me die. Thank you for your understanding and your patience with my prehistoric hardware! 🖥️💾
 
-#🎅 Acknowledgements
+# 🎅 Acknowledgements
 This project was made possible by:
 
 The festive spirit of the Zone01 Cohort. 🎄
+
 The inspiring challenge organizer, imichalop. 💻
