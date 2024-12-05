@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Assignment</title>
+    <link rel="stylesheet" href="/static/styles.css">  <!-- Link to the CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Gift Assignment System</h1>
+        <form action="/assign" method="POST">
+            <label for="userName">Enter your name:</label>
+            <input type="text" id="userName" name="userName" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        {{if .AssignedTo}}
+        <h2>You are assigned to give a gift to: {{.AssignedTo}}</h2>
+        <p>You can give them: {{.GiftSuggestion}}</p>
+        {{end}}
+    </div>
+</body>
+</html>
